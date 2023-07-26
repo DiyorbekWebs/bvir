@@ -101,8 +101,12 @@ const VideoPlayer = styled.div`
   width: 426px;
   height: 426px;
   border-radius: 426px;
+  background-color: red;
 `;
 const About = () => {
+  const src =
+    "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4";
+
   return (
     <Content>
       <div className="container">
@@ -133,7 +137,9 @@ const About = () => {
               </Link>
             </UserTab>
             <Aboutt>
-             
+              <VideoPlayer controls width="100%">
+                <source src={'./vvv.mp4'} type="video/mp4" />
+              </VideoPlayer>
               <Text5>
                 O‘zbekiston Respublikasi Prezidentining «O‘zbekiston
                 Respublikasida bog‘dorchilik va issiqxona xo‘jaligini yanada

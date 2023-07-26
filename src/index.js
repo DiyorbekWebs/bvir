@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "node_modules/video-react/dist/video-react.css";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import "../src/assets/Fonts/stylesheet.css";
 import "./index.css";
 

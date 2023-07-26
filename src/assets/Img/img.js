@@ -6,6 +6,9 @@ import Facebook from "./face.svg";
 import img1 from "./img1.jpg";
 import img2 from "./img2.png";
 import img3 from "./img3.png";
+import img4 from "./img4.jpg";
+import img5 from "./img5.jpg";
+import img6 from "./img6.jpg";
 import Icon1 from "./i1.svg";
 import Icon2 from "./i2.svg";
 import Icon3 from "./i3.svg";
@@ -19,8 +22,14 @@ import Icon10 from "./i10.svg";
 import Icon11 from "./i11.svg";
 import Icon12 from "./i12.svg";
 import Icon13 from "./i13.svg";
+import Icon14 from "./phone.svg";
+import Icon15 from "./messege.svg";
+import Icon16 from "./globe.svg";
 import Arrow from "./chevron.svg";
 import AvatarIcon from "./avatar.svg";
+import Plus from "./plus.svg";
+import MilliyG from "./milliy.svg";
+import Logo2 from "./logo2.jpg";
 
 export {
   Logo1,
@@ -43,7 +52,16 @@ export {
   Icon11,
   Icon12,
   Icon13,
+  Icon14,
+  Icon15,
+  Icon16,
   img3,
+  img4,
+  img5,
+  img6,
   Arrow,
   AvatarIcon,
+  Plus,
+  Logo2,
+  MilliyG,
 };
