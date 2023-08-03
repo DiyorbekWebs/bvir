@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Card from "./Card";
 import "./index.css";
 const Content = styled.div`
-  padding: 120px 0px 150px 0px;
+  padding: 60px 0px 120px 0px;
   display: flex;
   flex-direction: column;
   gap: 63px;
@@ -18,8 +18,7 @@ const Title = styled.h5`
   text-transform: uppercase;
   line-height: normal;
 `;
-
-const Useful = () => {
+const Hamkor = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -29,12 +28,11 @@ const Useful = () => {
     speed: 3000,
     autoplaySpeed: 1000,
     cssEase: "linear",
-
   };
   return (
     <Content>
       <div className="container">
-        <Title>Foydali xavolalar</Title>
+        <Title>Hamkorlarimiz</Title>
       </div>
       <Slider {...settings}>
         <Card />
@@ -52,4 +50,4 @@ const Useful = () => {
   );
 };
 
-export default Useful;
+export default Hamkor;

@@ -6,6 +6,9 @@ const Box1 = styled.div`
   display: flex;
   align-items: center;
   gap: 118px;
+   @media screen and (max-width: 1281px) {
+    gap: 90px;
+  }
 `;
 const Box2 = styled.div`
   width: 100%;
@@ -25,6 +28,7 @@ const Lists = styled.div`
   display: flex;
   align-items: center;
   gap: 66px;
+ 
 `;
 const List = styled.ul`
   display: flex;

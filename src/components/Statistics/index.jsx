@@ -23,6 +23,9 @@ const Bottom = styled.div`
 const Div = styled.div`
   display: flex;
   gap: 20px;
+  @media screen and (max-width: 1281px) {
+    gap: 10px;
+  }
 `;
 const Card1 = styled.div`
   width: 427px;
@@ -33,6 +36,10 @@ const Card1 = styled.div`
   gap: 15px;
   align-items: center;
   cursor: pointer;
+  @media screen and (max-width: 1281px) {
+    width: 400px;
+    padding: 51px 51px 51px 51px;
+  }
 `;
 const Card1Img = styled.img`
   width: 61px;

@@ -12,6 +12,9 @@ const Card = styled.div`
 const Div = styled.div`
   display: flex;
   gap: 190px;
+  @media screen and (max-width: 1281px) {
+    gap: 125px;
+  }
 `;
 const Texts = styled.ul`
   display: flex;

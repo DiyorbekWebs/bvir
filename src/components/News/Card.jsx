@@ -31,7 +31,7 @@ const Text = styled.h4`
   font-weight: 700;
   line-height: 26px; /* 118.182% */
 `;
-const Time = styled.p`
+export const Time = styled.p`
   color: #141f14;
   font-family: Open Sans;
   font-size: 14px;

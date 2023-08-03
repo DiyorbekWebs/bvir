@@ -11,9 +11,6 @@ const Content = styled.div`
   align-items: center;
   width: 315px;
   cursor: pointer;
-  @media screen and (max-width: 1281px) {
-    margin-right: 20px;
-  }
 `;
 const Img = styled.img`
   width: 148px;
@@ -29,7 +26,6 @@ const Text = styled.p`
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  
 `;
 const Card = () => {
   return (

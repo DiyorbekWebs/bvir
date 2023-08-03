@@ -9,6 +9,9 @@ const Box = styled.div`
   display: flex;
   gap: 50px;
   flex-direction: column;
+  @media screen and (max-width: 1281px) {
+    gap: 30px;
+  }
 `;
 export const Title = styled.h5`
   color: #141f14;
@@ -17,12 +20,16 @@ export const Title = styled.h5`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-transform: uppercase;
 `;
 const Cards = styled.div`
   display: flex;
   gap: 20px;
   width: 100%;
   flex-wrap: wrap;
+  @media screen and (max-width: 1281px) {
+    gap: 10px;
+  }
 `;
 const Service = () => {
   return (

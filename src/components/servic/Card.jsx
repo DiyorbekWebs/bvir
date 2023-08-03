@@ -17,6 +17,11 @@ const CardBox = styled.div`
   &:hover {
     transition: 1s;
   }
+  @media screen and (max-width: 1281px) {
+    width: 297px;
+    height: 192px;
+    padding: 25px 25px 44px 30px;
+  }
 `;
 const Text1 = styled.p`
   color: #141f14;

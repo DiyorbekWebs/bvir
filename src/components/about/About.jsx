@@ -87,6 +87,10 @@ const Aboutt = styled.div`
   display: flex;
   align-items: center;
   gap: 63px;
+  @media screen and (max-width: 1281px) {
+    gap: 53px;
+    padding: 26px 10px 26px 26px;
+  }
 `;
 const Text5 = styled.h4`
   width: 705px;
@@ -138,7 +142,7 @@ const About = () => {
             </UserTab>
             <Aboutt>
               <VideoPlayer controls width="100%">
-                <source src={'./vvv.mp4'} type="video/mp4" />
+                <source src={"./vvv.mp4"} type="video/mp4" />
               </VideoPlayer>
               <Text5>
                 O‘zbekiston Respublikasi Prezidentining «O‘zbekiston

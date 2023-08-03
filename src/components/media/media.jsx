@@ -5,13 +5,11 @@ import "./index.css";
 import { btns } from "../../constant/btns";
 import { Link } from "react-router-dom";
 import { Arrow, img4, img5, img6 } from "../../assets/Img/img";
-const Content = styled.div`
-`;
+const Content = styled.div``;
 const Box = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
-
 `;
 const Btns = styled.div`
   display: flex;
@@ -33,7 +31,7 @@ const Bottom = styled.div`
   gap: 20px;
 `;
 const Outlet = styled.div`
-padding-bottom: 250px;
+  padding-bottom: 250px;
 `;
 const Photo = styled.div`
   display: flex;
@@ -58,6 +56,9 @@ const Text = styled.h4`
   font-style: normal;
   font-weight: 700;
   line-height: 26px; /* 108.333% */
+  @media screen and (max-width: 1281px) {
+    width: 450px;
+  }
 `;
 const Text2 = styled.p`
   color: #141f14;
@@ -83,7 +84,6 @@ const Img = styled.img`
     ),
     url(<path-to-image>), lightgray 50% / cover no-repeat;
   position: absolute;
-
 `;
 const Img1 = styled(Img)`
   z-index: -1;
@@ -95,7 +95,6 @@ const Img2 = styled(Img)`
 const Img3 = styled(Img)`
   z-index: 1;
   left: 250px;
-
 `;
 const Media = () => {
   const [sel, setSel] = React.useState(1);

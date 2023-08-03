@@ -9,6 +9,10 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+  @media screen and (max-width: 1281px) {
+    width: 400px;
+    padding: 64px 155px 194px 61px;
+  }
 `;
 const Item = styled.div`
   display: flex;

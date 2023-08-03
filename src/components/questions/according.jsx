@@ -32,12 +32,16 @@ const Text = styled.h4`
   font-weight: 600;
   line-height: normal;
   width: 720px;
+  @media screen and (max-width: 1281px) {
+    width: 600px;
+  }
 `;
 const Panel = styled(AccordionItemPanel)`
-width: 98%;
+  width: 98%;
   border-radius: 0px 0px 12px 12px;
   background: #4eb027;
   padding: 39px 121px 83px 35px;
+
 `;
 const Text2 = styled.p`
   width: 693px;
@@ -47,6 +51,9 @@ const Text2 = styled.p`
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  @media screen and (max-width: 1281px) {
+    width: 600px;
+  }
 `;
 const AccordionN = styled(Accordion)`
   display: flex;

@@ -22,6 +22,10 @@ const Text1 = styled.h3`
   font-weight: 700;
   line-height: 32px; /* 133.333% */
   text-transform: uppercase;
+  @media screen and (max-width: 1281px) {
+  width: 400px;
+    
+  }
 `;
 const Text2 = styled.h3`
   color: #fff;
