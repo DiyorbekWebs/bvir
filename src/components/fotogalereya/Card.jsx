@@ -6,16 +6,34 @@ const Content = styled.div`
   align-items: flex-start;
   flex-direction: column;
   gap: 16px;
+  @media screen and (max-width: 821px) {
+    gap: 14px;
+}
 `;
 const Img = styled.img`
   width: 427px;
   height: 260px;
   border-radius: 8px;
+  @media screen and (max-width: 1281px) {
+    width: 390px;
+    height: 240px;
+  }
+  @media screen and (max-width: 835px) {
+    width: 380px;
+    height: 230px;
+  }
+  @media screen and (max-width: 821px) {
+    width: 375px;
+    height: 220px;
+  }
 `;
 const Texts = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  @media screen and (max-width: 821px) {
+    gap: 5px;
+}
 `;
 const Text1 = styled.p`
   color: #141f14;
@@ -34,6 +52,15 @@ const Text2 = styled.h4`
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 22.1px */
+  @media screen and (max-width: 1281px) {
+    width: 400px;
+  }
+  @media screen and (max-width: 835px) {
+    width: 380px;
+  }
+  @media screen and (max-width: 821px) {
+    width: 370px;
+  }
 `;
 const Card = ({ img, text1, text2 }) => {
   return (

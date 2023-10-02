@@ -6,7 +6,6 @@ import { styled } from "styled-components";
 const Tablist = styled.div`
   padding-left: 10px;
   transition: 1s;
-
   cursor: pointer;
   width: 100%;
   height: 54px;
@@ -14,8 +13,10 @@ const Tablist = styled.div`
   background-color: #fff;
   border-radius: 8px;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
+  @media screen and (max-width: 885px) {
+    padding-left: 5px;
+  }
 `;
 const Tab = styled.div`
   color: #141f14;
@@ -29,6 +30,11 @@ const Tab = styled.div`
   padding: 20px;
   border-radius: 7px;
   margin-left: -10px;
+  @media screen and (max-width: 885px) {
+    font-size: 8px;
+    padding: 10px 5px 10px 5px;
+    font-weight: 600;
+  }
 `;
 const Content = styled.div`
   padding: 13px 0px 0px 0px;

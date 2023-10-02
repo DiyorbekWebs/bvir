@@ -30,6 +30,19 @@ const Cards = styled.div`
   flex-wrap: wrap;
   gap: 19px;
   width: 100%;
+  justify-content: center;
+
+  @media screen and (max-width: 1281px) {
+    gap: 10px;
+    row-gap: 20px;
+    @media screen and (max-width: 835px) {
+      gap: 23px;
+    }
+    @media screen and (max-width: 821px) {
+      gap: 16px;
+      row-gap: 30px;
+    }
+  }
 `;
 const Photo = () => {
   return (
@@ -37,8 +50,8 @@ const Photo = () => {
       <div className="container">
         <Box>
           <Path>
-            <Linkk to={'/'}>Bosh sahifa</Linkk>
-            <Linkk to={'/info'}>// Foto galereya</Linkk>
+            <Linkk to={"/"}>Bosh sahifa</Linkk>
+            <Linkk to={"/info"}>// Foto galereya</Linkk>
           </Path>
           <Title
             style={{

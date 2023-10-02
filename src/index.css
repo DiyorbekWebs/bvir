@@ -23,3 +23,18 @@ li {
     max-width: 1220px;
   }
 }
+@media screen and (max-width: 885px) {
+  .container {
+    max-width: 845px;
+  }
+}
+@media screen and (max-width: 835px) {
+  .container {
+    max-width: 790px;
+  }
+}
+@media screen and (max-width: 821px) {
+  .container {
+    max-width: 770px;
+  }
+}

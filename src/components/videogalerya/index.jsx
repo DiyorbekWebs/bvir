@@ -30,6 +30,11 @@ const Cards = styled.div`
   flex-wrap: wrap;
   gap: 19px;
   width: 100%;
+  justify-content: center;
+  @media screen and (max-width: 1281px) {
+    gap: 10px;
+    row-gap: 20px;
+}
 `;
 const Video = () => {
   return (

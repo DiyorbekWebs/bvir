@@ -12,6 +12,19 @@ const Videoo = styled.video`
   height: 260px;
   border-radius: 8px;
   background-color: lightgray;
+  @media screen and (max-width: 1281px) {
+    width: 390px;
+    height: 240px;
+  }
+  @media screen and (max-width: 835px) {
+    width: 375px;
+    height: 225px;
+  }
+  @media screen and (max-width: 821px) {
+    width: 375px;
+    height: 220px;
+    gap: 10px;
+  }
 `;
 const Texts = styled.div`
   display: flex;
@@ -35,12 +48,24 @@ const Text2 = styled.h4`
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 22.1px */
+  @media screen and (max-width: 1281px) {
+    width: 399px;
+  }
+  @media screen and (max-width: 821px) {
+    width: 380px;
+  color: #141f14;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  }
 `;
 const Card = ({ img, text1, text2 }) => {
   return (
     <Content>
       <Videoo>
-        <source src=""/>
+        <source src="" />
       </Videoo>
       <Texts>
         <Text1>09:40</Text1>

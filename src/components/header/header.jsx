@@ -27,6 +27,9 @@ const Box = styled.div`
 const List = styled.ul`
   display: flex;
   gap: 20px;
+  @media screen and (max-width: 885px) {
+    gap: 10px;
+  }
 `;
 const Item = styled.li`
   color: #141f14;
@@ -83,6 +86,9 @@ const Text2 = styled.h1`
   font-weight: 600;
   line-height: 20px; /* 125% */
   text-transform: uppercase;
+  @media screen and (max-width: 885px) {
+    width: 250px;
+  }
 `;
 const Btns = styled.div`
   display: flex;
@@ -109,6 +115,15 @@ const Btn = styled.div`
   background-color: #fff;
   border-radius: 5px;
   cursor: pointer;
+  @media screen and (max-width: 885px) {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 12px 18px;
+  }
+`;
+const Box2 = styled(Box)`
+  @media screen and (max-width: 885px) {
+  }
 `;
 const Header = () => {
   return (
@@ -143,7 +158,7 @@ const Header = () => {
       </HeaderTop>
       <HeaderBot>
         <div className="container">
-          <Box>
+          <Box2>
             <Left>
               <Logo src={Logo1} />
               <Texts>
@@ -167,7 +182,7 @@ const Header = () => {
                 <img src={Telegram} alt="" />
               </Social>
             </Right>
-          </Box>
+          </Box2>
         </div>
       </HeaderBot>
     </Content>
